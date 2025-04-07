@@ -66,7 +66,7 @@ library Ethereum {
     address internal constant ALM_PROXY       = 0x491EDFB0B8b608044e227225C715981a30F3A44E;
     address internal constant ALM_RATE_LIMITS = 0x5F5cfCB8a463868E37Ab27B5eFF3ba02112dF19a;
 
-    address internal constant ALM_FREEZER = 0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f;
+    address internal constant ALM_FREEZER = 0xB0113804960345fd0a245788b3423319c86940e5;
     address internal constant ALM_RELAYER = 0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f;
 
     /******************************************************************************************************************/

@@ -92,6 +92,7 @@ library Ethereum {
 
     address internal constant CENTRIFUGE_JAAA  = 0xE9d1f733F406D4bbbDFac6D4CfCD2e13A6ee1d01;
     address internal constant CENTRIFUGE_JTRSY = 0x36036fFd9B1C6966ab23209E073c68Eb9A992f50;
+    address internal constant CENTRIFUGE_SPOKE = 0xd30Da1d7F964E5f6C2D9fE2AAA97517F6B23FA2B;
 
     /******************************************************************************************************************/
     /*** Fluid Addresses                                                                                            ***/

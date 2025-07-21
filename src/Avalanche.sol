@@ -29,4 +29,10 @@ library Avalanche {
     address internal constant GROVE_EXECUTOR = 0x4b803781828b76EaBF21AaF02e5ce23596b4d60c;
     address internal constant GROVE_RECEIVER = 0x26e9512547feC1906C55256e491DfB6673D8C23f;
 
+    /******************************************************************************************************************/
+    /*** Centrifuge Addresses                                                                                       ***/
+    /******************************************************************************************************************/
+
+    address internal constant CENTRIFUGE_SPOKE = 0xd30Da1d7F964E5f6C2D9fE2AAA97517F6B23FA2B;
+
 }

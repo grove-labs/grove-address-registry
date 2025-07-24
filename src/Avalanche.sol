@@ -19,6 +19,10 @@ library Avalanche {
     /*** Grove Liquidity Layer Addresses                                                                            ***/
     /******************************************************************************************************************/
 
+    address internal constant ALM_CONTROLLER  = 0xbA41d5F95DF891862bf28bEA261AEc0efd6D0FAA;
+    address internal constant ALM_PROXY       = 0x7107DD8F56642327945294a18A4280C78e153644;
+    address internal constant ALM_RATE_LIMITS = 0x6ba2e6bCCe3d2A31F1e3e1d3e11CDffBaA002A21;
+
     address internal constant ALM_FREEZER = 0xB0113804960345fd0a245788b3423319c86940e5;
     address internal constant ALM_RELAYER = 0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f;
 

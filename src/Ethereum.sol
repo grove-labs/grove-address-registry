@@ -63,7 +63,7 @@ library Ethereum {
     /*** Grove Liquidity Layer Addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0x3048386E09c72C20FB268a37d2B630D7f2Ee9138;
+    address internal constant ALM_CONTROLLER  = 0xB111E07c8B939b0Fe701710b365305F7F23B0edd;
     address internal constant ALM_PROXY       = 0x491EDFB0B8b608044e227225C715981a30F3A44E;
     address internal constant ALM_RATE_LIMITS = 0x5F5cfCB8a463868E37Ab27B5eFF3ba02112dF19a;
 
@@ -90,8 +90,8 @@ library Ethereum {
     /*** Centrifuge Addresses                                                                                       ***/
     /******************************************************************************************************************/
 
-    address internal constant CENTRIFUGE_JAAA  = 0xE9d1f733F406D4bbbDFac6D4CfCD2e13A6ee1d01;
-    address internal constant CENTRIFUGE_JTRSY = 0x36036fFd9B1C6966ab23209E073c68Eb9A992f50;
+    address internal constant CENTRIFUGE_JAAA  = 0x4880799eE5200fC58DA299e965df644fBf46780B;
+    address internal constant CENTRIFUGE_JTRSY = 0xFE6920eB6C421f1179cA8c8d4170530CDBdfd77A;
 
     /******************************************************************************************************************/
     /*** Fluid Addresses                                                                                            ***/

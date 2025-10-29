@@ -123,4 +123,25 @@ library Ethereum {
 
     address public constant PENDLE_ROUTER = 0x888888888889758F76e7103c6CbF23ABbF58F946;
 
+    /******************************************************************************************************************/
+    /*** OTC Desks Addresses                                                                                        ***/
+    /******************************************************************************************************************/
+
+    address public constant FALCON_X_DEPOSIT = 0xD94F9ef3395BBE41C1f05ced3C9a7dc520D08036;
+
+    /******************************************************************************************************************/
+    /*** Aave Addresses                                                                                             ***/
+    /******************************************************************************************************************/
+
+    address internal constant AAVE_CORE_USDC     = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
+    address internal constant AAVE_CORE_RLUSD    = 0xFa82580c16A31D0c1bC632A36F82e83EfEF3Eec0;
+    address internal constant AAVE_HORIZON_USDC  = 0x68215B6533c47ff9f7125aC95adf00fE4a62f79e;
+    address internal constant AAVE_HORIZON_RLUSD = 0xE3190143Eb552456F88464662f0c0C4aC67A77eB;
+
+    /******************************************************************************************************************/
+    /*** Curve Addresses                                                                                            ***/
+    /******************************************************************************************************************/
+
+    address internal constant CURVE_RLUSD_USDC = 0xD001aE433f254283FeCE51d4ACcE8c53263aa186;
+
 }

@@ -77,7 +77,7 @@ library Ethereum {
     address internal constant ETHENA_MINTER = 0xe3490297a08d6fC8Da46Edb7B6142E4F461b62D3;
 
     /******************************************************************************************************************/
-    /*** Blackrock BUIDL Addresses                                                                                  ***/
+    /*** Blackrock Securitize Addresses                                                                             ***/
     /******************************************************************************************************************/
 
     address internal constant BUIDL          = 0x7712c34205737192402172409a8F7ccef8aA2AEc;
@@ -85,6 +85,10 @@ library Ethereum {
     address internal constant BUIDLI         = 0x6a9DA2D710BB9B700acde7Cb81F10F1fF8C89041;
     address internal constant BUIDLI_DEPOSIT = 0xD1917664bE3FdAea377f6E8D5BF043ab5C3b1312;
     address internal constant BUIDLI_REDEEM  = 0x8780Dd016171B91E4Df47075dA0a947959C34200;  // Offchain redeem
+
+    address internal constant STAC_DEPOSIT = 0x51e4C4A356784D0B3b698BFB277C626b2b9fe178;
+    address internal constant STAC_REDEEM  = 0xbb543C77436645C8b95B64eEc39E3C0d48D4842b;
+    address internal constant STAC         = 0x51C2d74017390CbBd30550179A16A1c28F7210fc;
 
     /******************************************************************************************************************/
     /*** Centrifuge Addresses                                                                                       ***/
@@ -104,6 +108,8 @@ library Ethereum {
     /******************************************************************************************************************/
 
     address internal constant MORPHO = 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb;
+
+    address internal constant GROVE_X_STEAKHOUSE_USDC_MORPHO_VAULT = 0xBEEf2B5FD3D94469b7782aeBe6364E6e6FB1B709;
 
     /******************************************************************************************************************/
     /*** Superstate Addresses                                                                                       ***/

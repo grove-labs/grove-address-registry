@@ -39,4 +39,18 @@ library Base {
     address internal constant GROVE_EXECUTOR = 0x491EDFB0B8b608044e227225C715981a30F3A44E;
     address internal constant GROVE_RECEIVER = 0x5F5cfCB8a463868E37Ab27B5eFF3ba02112dF19a;
 
+    /******************************************************************************************************************/
+    /*** Morpho Addresses                                                                                           ***/
+    /******************************************************************************************************************/
+
+    address internal constant MORPHO = 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb;
+
+    address internal constant GROVE_X_STEAKHOUSE_USDC_MORPHO_VAULT = 0xBeEf2d50B428675a1921bC6bBF4bfb9D8cF1461A;
+
+    /******************************************************************************************************************/
+    /*** Pendle Addresses                                                                                           ***/
+    /******************************************************************************************************************/
+
+    address public constant PENDLE_ROUTER = 0x888888888889758F76e7103c6CbF23ABbF58F946;
+
 }

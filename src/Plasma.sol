@@ -21,4 +21,10 @@ library Plasma {
     address internal constant GROVE_EXECUTOR = 0x26e9512547feC1906C55256e491DfB6673D8C23f;
     address internal constant GROVE_RECEIVER = 0x10927C233353022724a42B506D071b79DA77bA89;
 
+    /******************************************************************************************************************/
+    /*** Aave Addresses                                                                                             ***/
+    /******************************************************************************************************************/
+
+    address internal constant AAVE_CORE_USDT = 0x5D72a9d9A9510Cd8cBdBA12aC62593A58930a948;
+
 }

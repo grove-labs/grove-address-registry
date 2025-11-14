@@ -13,7 +13,8 @@ library Base {
     /*** Bridging Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant CCTP_TOKEN_MESSENGER = 0x1682Ae6375C4E4A97e4B583BC394c861A46D8962;
+    address internal constant CCTP_TOKEN_MESSENGER    = 0x1682Ae6375C4E4A97e4B583BC394c861A46D8962;
+    address internal constant CCTP_TOKEN_MESSENGER_V2 = 0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d;
 
     /******************************************************************************************************************/
     /*** PSM Addresses                                                                                              ***/

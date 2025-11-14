@@ -13,7 +13,8 @@ library Avalanche {
     /*** Bridging Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant CCTP_TOKEN_MESSENGER = 0x6B25532e1060CE10cc3B0A99e5683b91BFDe6982;
+    address internal constant CCTP_TOKEN_MESSENGER    = 0x6B25532e1060CE10cc3B0A99e5683b91BFDe6982;
+    address internal constant CCTP_TOKEN_MESSENGER_V2 = 0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d;
 
     /******************************************************************************************************************/
     /*** Grove Liquidity Layer Addresses                                                                            ***/

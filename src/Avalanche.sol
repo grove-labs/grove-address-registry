@@ -41,4 +41,10 @@ library Avalanche {
     address internal constant CENTRIFUGE_JAAA  = 0x1121F4e21eD8B9BC1BB9A2952cDD8639aC897784;
     address internal constant CENTRIFUGE_JTRSY = 0xFE6920eB6C421f1179cA8c8d4170530CDBdfd77A;
 
+    /******************************************************************************************************************/
+    /*** Merkl Addresses                                                                                            ***/
+    /******************************************************************************************************************/
+
+    address internal constant MERKL_DISTRIBUTOR = 0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae;
+
 }

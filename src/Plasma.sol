@@ -27,4 +27,10 @@ library Plasma {
 
     address internal constant AAVE_CORE_USDT = 0x5D72a9d9A9510Cd8cBdBA12aC62593A58930a948;
 
+    /******************************************************************************************************************/
+    /*** Merkl Addresses                                                                                            ***/
+    /******************************************************************************************************************/
+
+    address internal constant MERKL_DISTRIBUTOR = 0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae;
+
 }

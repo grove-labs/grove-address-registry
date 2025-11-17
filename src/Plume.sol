@@ -40,4 +40,10 @@ library Plume {
     address internal constant CENTRIFUGE_ACRDX = 0x354a9222571259457B2e98b2285B62e6a9bf4eD3;
     address internal constant CENTRIFUGE_JTRSY = 0x818A3593340622c1D6A51B039e191F2f8C99A1F2;
 
+    /******************************************************************************************************************/
+    /*** Merkl Addresses                                                                                            ***/
+    /******************************************************************************************************************/
+
+    address internal constant MERKL_DISTRIBUTOR = 0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae;
+
 }

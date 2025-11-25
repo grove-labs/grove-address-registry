@@ -47,4 +47,11 @@ library Avalanche {
 
     address internal constant MERKL_DISTRIBUTOR = 0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae;
 
+    /******************************************************************************************************************/
+    /*** Uniswap V3 Addresses                                                                                       ***/
+    /******************************************************************************************************************/
+
+    address internal constant UNISWAP_V3_SWAP_ROUTER_02   = 0xbb00FF08d01D300023C629E8fFfFcb65A5a578cE;
+    address internal constant UNISWAP_V3_POSITION_MANAGER = 0x655C406EBFa14EE2006250925e54ec43AD184f8B;
+
 }

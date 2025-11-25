@@ -60,4 +60,11 @@ library Base {
 
     address public constant PENDLE_ROUTER = 0x888888888889758F76e7103c6CbF23ABbF58F946;
 
+    /******************************************************************************************************************/
+    /*** Uniswap V3 Addresses                                                                                       ***/
+    /******************************************************************************************************************/
+
+    address internal constant UNISWAP_V3_SWAP_ROUTER_02   = 0x2626664c2603336E57B271c5C0b26F421741e481;
+    address internal constant UNISWAP_V3_POSITION_MANAGER = 0x03a520b32C04BF3bEEf7BEb72E919cf822Ed34f1;
+
 }

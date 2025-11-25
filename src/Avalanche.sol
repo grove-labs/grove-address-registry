@@ -51,7 +51,7 @@ library Avalanche {
     /*** Uniswap V3 Addresses                                                                                       ***/
     /******************************************************************************************************************/
 
-    address internal constant UNISWAP_V3_SWAP_ROUTER_02 = 0xbb00FF08d01D300023C629E8fFfFcb65A5a578cE;
+    address internal constant UNISWAP_V3_SWAP_ROUTER_02   = 0xbb00FF08d01D300023C629E8fFfFcb65A5a578cE;
     address internal constant UNISWAP_V3_POSITION_MANAGER = 0x655C406EBFa14EE2006250925e54ec43AD184f8B;
 
 }

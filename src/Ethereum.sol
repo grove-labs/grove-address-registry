@@ -157,4 +157,11 @@ library Ethereum {
 
     address internal constant CURVE_RLUSD_USDC = 0xD001aE433f254283FeCE51d4ACcE8c53263aa186;
 
+    /******************************************************************************************************************/
+    /*** Uniswap V3 Addresses                                                                                       ***/
+    /******************************************************************************************************************/
+
+    address internal constant UNISWAP_V3_SWAP_ROUTER_02 = 0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45;
+    address internal constant UNISWAP_V3_POSITION_MANAGER = 0xC36442b4a4522E871399CD717aBDD847Ab11FE88;
+
 }

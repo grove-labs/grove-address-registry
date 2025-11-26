@@ -54,7 +54,8 @@ library Ethereum {
     /*** GroveDAO Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant GROVE_PROXY = 0x1369f7b2b38c76B6478c0f0E66D94923421891Ba;
+    address internal constant GROVE_PROXY      = 0x1369f7b2b38c76B6478c0f0E66D94923421891Ba;
+    address internal constant GROVE_STAR_GUARD = 0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880;
 
     /******************************************************************************************************************/
     /*** Grove Allocation System Addresses                                                                          ***/

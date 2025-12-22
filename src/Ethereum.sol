@@ -166,4 +166,16 @@ library Ethereum {
     address internal constant UNISWAP_V3_SWAP_ROUTER_02   = 0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45;
     address internal constant UNISWAP_V3_POSITION_MANAGER = 0xC36442b4a4522E871399CD717aBDD847Ab11FE88;
 
+    /******************************************************************************************************************/
+    /*** Galaxy Addresses                                                                                           ***/
+    /******************************************************************************************************************/
+
+    address internal constant GALAXY_ARCH_CLO_DEPOSIT = 0x2E3A11807B94E689387f60CD4BF52A56857f2eDC;
+
+    /******************************************************************************************************************/
+    /*** Ripple Addresses                                                                                           ***/
+    /******************************************************************************************************************/
+
+    address internal constant RLUSD_MINT_BURN = 0xD178a90C41ff3DcffbfDEF7De0BAF76Cbfe6a121;
+
 }

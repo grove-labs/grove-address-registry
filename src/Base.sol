@@ -7,7 +7,9 @@ library Base {
     /*** Token Addresses                                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant USDC = 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913;
+    address internal constant SUSDS = 0x5875eEE11Cf8398102FdAd704C9E96607675467a;
+    address internal constant USDC  = 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913;
+    address internal constant USDS  = 0x820C137fa70C8691f0e44Dc420a5e53c168921Dc;
 
     /******************************************************************************************************************/
     /*** Bridging Addresses                                                                                         ***/
@@ -26,7 +28,7 @@ library Base {
     /*** Grove Liquidity Layer Addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0x08b045609a673996ca10fedbAFAE2395A21ba539;
+    address internal constant ALM_CONTROLLER  = 0x7f8408eBbBC3504F83eeDa52910dd75Eba92C955;
     address internal constant ALM_PROXY       = 0x9B746dBC5269e1DF6e4193Bcb441C0FbBF1CeCEe;
     address internal constant ALM_RATE_LIMITS = 0xAc8BF0669223197ac8B94Cbb53E725e40B3919E8;
 

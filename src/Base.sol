@@ -34,6 +34,7 @@ library Base {
 
     address internal constant ALM_FREEZER = 0xB0113804960345fd0a245788b3423319c86940e5;
     address internal constant ALM_RELAYER = 0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f;
+    address internal constant ALM_RELAYER_2 = 0x9187807e07112359C481870feB58f0c117a29179;
 
     /******************************************************************************************************************/
     /*** Governance Relay Addresses                                                                                 ***/

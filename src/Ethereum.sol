@@ -72,7 +72,7 @@ library Ethereum {
     /*** Grove Liquidity Layer Addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0xB111E07c8B939b0Fe701710b365305F7F23B0edd;
+    address internal constant ALM_CONTROLLER  = 0xfd9dEA9a8D5B955649579Af482DB7198A392A9F5;
     address internal constant ALM_PROXY       = 0x491EDFB0B8b608044e227225C715981a30F3A44E;
     address internal constant ALM_RATE_LIMITS = 0x5F5cfCB8a463868E37Ab27B5eFF3ba02112dF19a;
 

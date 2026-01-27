@@ -7,12 +7,14 @@ library Ethereum {
     /*** Token Addresses                                                                                            ***/
     /******************************************************************************************************************/
 
+    address internal constant AUSD   = 0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a;
     address internal constant CBBTC  = 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf;
     address internal constant DAI    = 0x6B175474E89094C44Da98b954EedeAC495271d0F;
     address internal constant EZETH  = 0xbf5495Efe5DB9ce00f80364C8B423567e58d2110;
     address internal constant GNO    = 0x6810e776880C02933D47DB1b9fc05908e5386b96;
     address internal constant LBTC   = 0x8236a87084f8B84306f72007F36F2618A5634494;
     address internal constant MKR    = 0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2;
+    address internal constant PYUSD  = 0x6c3ea9036406852006290770BEdFcAbA0e23A0e8;
     address internal constant RETH   = 0xae78736Cd615f374D3085123A210448E74Fc6393;
     address internal constant RLUSD  = 0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD;
     address internal constant RSETH  = 0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7;
@@ -57,6 +59,7 @@ library Ethereum {
 
     address internal constant GROVE_PROXY      = 0x1369f7b2b38c76B6478c0f0E66D94923421891Ba;
     address internal constant GROVE_STAR_GUARD = 0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880;
+    address internal constant GROVE_TOKEN      = 0xB30FE1Cf884B48a22a50D22a9282004F2c5E9406;
 
     /******************************************************************************************************************/
     /*** Grove Allocation System Addresses                                                                          ***/
@@ -124,7 +127,10 @@ library Ethereum {
 
     address internal constant MORPHO = 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb;
 
-    address internal constant GROVE_X_STEAKHOUSE_USDC_MORPHO_VAULT = 0xBEEf2B5FD3D94469b7782aeBe6364E6e6FB1B709;
+    address internal constant GROVE_X_STEAKHOUSE_USDC_MORPHO_VAULT       = 0xBEEf2B5FD3D94469b7782aeBe6364E6e6FB1B709;
+    address internal constant GROVE_X_STEAKHOUSE_USDC_HY_V2_MORPHO_VAULT = 0xBeefF08dF54897e7544aB01d0e86f013DA354111;
+    address internal constant STEAKHOUSE_PYUSD_MORPHO_VAULT              = 0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379;
+
 
     /******************************************************************************************************************/
     /*** Superstate Addresses                                                                                       ***/
@@ -157,7 +163,9 @@ library Ethereum {
     /*** Curve Addresses                                                                                            ***/
     /******************************************************************************************************************/
 
+    address internal constant CURVE_AUSD_USDC  = 0xE79C1C7E24755574438A26D5e062Ad2626C04662;
     address internal constant CURVE_RLUSD_USDC = 0xD001aE433f254283FeCE51d4ACcE8c53263aa186;
+    address internal constant CURVE_PYUSD_USDS = 0xA632D59b9B804a956BfaA9b48Af3A1b74808FC1f;
 
     /******************************************************************************************************************/
     /*** Uniswap V3 Addresses                                                                                       ***/
@@ -165,6 +173,8 @@ library Ethereum {
 
     address internal constant UNISWAP_V3_SWAP_ROUTER_02   = 0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45;
     address internal constant UNISWAP_V3_POSITION_MANAGER = 0xC36442b4a4522E871399CD717aBDD847Ab11FE88;
+
+    address internal constant UNISWAP_V3_AUSD_USDC = 0xbAFeAd7c60Ea473758ED6c6021505E8BBd7e8E5d;
 
     /******************************************************************************************************************/
     /*** Galaxy Addresses                                                                                           ***/
@@ -177,5 +187,12 @@ library Ethereum {
     /******************************************************************************************************************/
 
     address internal constant RLUSD_MINT_BURN = 0xD178a90C41ff3DcffbfDEF7De0BAF76Cbfe6a121;
+
+    /******************************************************************************************************************/
+    /*** Agora Addresses                                                                                            ***/
+    /******************************************************************************************************************/
+
+    address internal constant AGORA_AUSD_MINT   = 0x748b66a6b3666311F370218Bc2819c0bEe13677e;
+    address internal constant AGORA_AUSD_REDEEM = 0xab8306d9FeFBE8183c3C59cA897A2E0Eb5beFE67;
 
 }

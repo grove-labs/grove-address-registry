@@ -129,6 +129,7 @@ library Ethereum {
 
     address internal constant GROVE_X_STEAKHOUSE_USDC_MORPHO_VAULT       = 0xBEEf2B5FD3D94469b7782aeBe6364E6e6FB1B709;
     address internal constant GROVE_X_STEAKHOUSE_USDC_HY_V2_MORPHO_VAULT = 0xBeefF08dF54897e7544aB01d0e86f013DA354111;
+    address internal constant GROVE_X_STEAKHOUSE_AUSD_V2_MORPHO_VAULT    = 0xBEEfF0d672ab7F5018dFB614c93981045D4aA98a;
     address internal constant STEAKHOUSE_PYUSD_MORPHO_VAULT              = 0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379;
 
 
@@ -180,7 +181,8 @@ library Ethereum {
     /*** Galaxy Addresses                                                                                           ***/
     /******************************************************************************************************************/
 
-    address internal constant GALAXY_ARCH_CLO_DEPOSIT = 0x2E3A11807B94E689387f60CD4BF52A56857f2eDC;
+    address internal constant GALAXY_ARCH_CLO_DEPOSIT  = 0x2E3A11807B94E689387f60CD4BF52A56857f2eDC;
+    address internal constant GALAXY_WAREHOUSE_DEPOSIT = 0x3E23311f9FF660E3c3d87E4b7c207b3c3D7e04f0;
 
     /******************************************************************************************************************/
     /*** Ripple Addresses                                                                                           ***/

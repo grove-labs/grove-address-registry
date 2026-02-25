@@ -55,7 +55,8 @@ library Base {
 
     address internal constant MORPHO = 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb;
 
-    address internal constant GROVE_X_STEAKHOUSE_USDC_MORPHO_VAULT = 0xBeEf2d50B428675a1921bC6bBF4bfb9D8cF1461A;
+    address internal constant GROVE_X_STEAKHOUSE_USDC_MORPHO_VAULT     = 0xBeEf2d50B428675a1921bC6bBF4bfb9D8cF1461A;
+    address internal constant STEAKHOUSE_PRIME_INSTANT_V2_MORPHO_VAULT = 0xbeef0e0834849aCC03f0089F01f4F1Eeb06873C9;
 
     /******************************************************************************************************************/
     /*** Pendle Addresses                                                                                           ***/

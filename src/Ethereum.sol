@@ -82,6 +82,9 @@ library Ethereum {
     address internal constant ALM_FREEZER = 0xB0113804960345fd0a245788b3423319c86940e5;
     address internal constant ALM_RELAYER = 0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f;
 
+    address internal constant GROVE_PRIMARY_RELAYER_OPERATOR   = 0x4364D17B578b0eD1c42Be9075D774D1d6AeAFe96;
+    address internal constant GROVE_SECONDARY_RELAYER_OPERATOR = 0x9187807e07112359C481870feB58f0c117a29179;
+
     /******************************************************************************************************************/
     /*** Ethena Addresses                                                                                           ***/
     /******************************************************************************************************************/
@@ -106,6 +109,7 @@ library Ethereum {
     /*** Centrifuge Addresses                                                                                       ***/
     /******************************************************************************************************************/
 
+    address internal constant CENTRIFUGE_ACRDX = 0x74A739EA1Dc67c5a0179ebad665D1D3c4b80B712;
     address internal constant CENTRIFUGE_JAAA  = 0x4880799eE5200fC58DA299e965df644fBf46780B;
     address internal constant CENTRIFUGE_JTRSY = 0xFE6920eB6C421f1179cA8c8d4170530CDBdfd77A;
 
@@ -131,7 +135,8 @@ library Ethereum {
     address internal constant GROVE_X_STEAKHOUSE_USDC_HY_V2_MORPHO_VAULT = 0xBeefF08dF54897e7544aB01d0e86f013DA354111;
     address internal constant GROVE_X_STEAKHOUSE_AUSD_V2_MORPHO_VAULT    = 0xBEEfF0d672ab7F5018dFB614c93981045D4aA98a;
     address internal constant STEAKHOUSE_PYUSD_MORPHO_VAULT              = 0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379;
-
+    address internal constant SENTORA_PYUSD_MAIN_V2_MORPHO_VAULT         = 0xb576765fB15505433aF24FEe2c0325895C559FB2;
+    address internal constant SENTORA_RLUSD_MAIN_V2_MORPHO_VAULT         = 0x6dC58a0FdfC8D694e571DC59B9A52EEEa780E6bf;
 
     /******************************************************************************************************************/
     /*** Superstate Addresses                                                                                       ***/

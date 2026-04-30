@@ -41,6 +41,8 @@ library Ethereum {
     address internal constant CCTP_TOKEN_MESSENGER    = 0xBd3fa81B58Ba92a82136038B25aDec7066af3155;
     address internal constant CCTP_TOKEN_MESSENGER_V2 = 0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d;
 
+    address internal constant USDS_SKYLINK_OFT = 0x1e1D42781FC170EF9da004Fb735f56F0276d01B8;
+
     /******************************************************************************************************************/
     /*** MakerDAO Addresses                                                                                         ***/
     /******************************************************************************************************************/
@@ -109,9 +111,11 @@ library Ethereum {
     /*** Centrifuge Addresses                                                                                       ***/
     /******************************************************************************************************************/
 
-    address internal constant CENTRIFUGE_ACRDX = 0x74A739EA1Dc67c5a0179ebad665D1D3c4b80B712;
-    address internal constant CENTRIFUGE_JAAA  = 0x4880799eE5200fC58DA299e965df644fBf46780B;
-    address internal constant CENTRIFUGE_JTRSY = 0xFE6920eB6C421f1179cA8c8d4170530CDBdfd77A;
+    address internal constant CENTRIFUGE_ACRDX_USDC = 0x74A739EA1Dc67c5a0179ebad665D1D3c4b80B712;
+    address internal constant CENTRIFUGE_JAAA_USDC  = 0x4880799eE5200fC58DA299e965df644fBf46780B;
+    address internal constant CENTRIFUGE_JTRSY_USDC = 0xFE6920eB6C421f1179cA8c8d4170530CDBdfd77A;
+
+    address internal constant CENTRIFUGE_JTRSY_USDS = 0x381f4F3B43C30B78C1f7777553236e57bB8AE9ff;
 
     /******************************************************************************************************************/
     /*** Fluid Addresses                                                                                            ***/

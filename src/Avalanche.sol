@@ -16,16 +16,20 @@ library Avalanche {
     address internal constant CCTP_TOKEN_MESSENGER    = 0x6B25532e1060CE10cc3B0A99e5683b91BFDe6982;
     address internal constant CCTP_TOKEN_MESSENGER_V2 = 0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d;
 
+    address internal constant USDS_SKYLINK_OFT = 0x4fec40719fD9a8AE3F8E20531669DEC5962D2619;
+
     /******************************************************************************************************************/
     /*** Grove Liquidity Layer Addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0x734266cE1E49b148eF633f2E0358382488064999;
+    address internal constant ALM_CONTROLLER  = 0x4236B772BEeEAFF57550Aa392A0f227C0b908Ce7;
     address internal constant ALM_PROXY       = 0x7107DD8F56642327945294a18A4280C78e153644;
     address internal constant ALM_RATE_LIMITS = 0x6ba2e6bCCe3d2A31F1e3e1d3e11CDffBaA002A21;
 
     address internal constant ALM_FREEZER = 0xB0113804960345fd0a245788b3423319c86940e5;
     address internal constant ALM_RELAYER = 0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f;
+
+    address internal constant GROVE_SECONDARY_RELAYER_OPERATOR = 0x9187807e07112359C481870feB58f0c117a29179;
 
     /******************************************************************************************************************/
     /*** Governance Relay Addresses                                                                                 ***/
@@ -46,6 +50,12 @@ library Avalanche {
     /******************************************************************************************************************/
 
     address internal constant MERKL_DISTRIBUTOR = 0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae;
+
+    /******************************************************************************************************************/
+    /*** Curve Addresses                                                                                            ***/
+    /******************************************************************************************************************/
+
+    address internal constant CURVE_USDS_USDC = 0xA9d7d3D7e68a0cae89FB33c736199172f405C8D3;
 
     /******************************************************************************************************************/
     /*** Uniswap V3 Addresses                                                                                       ***/

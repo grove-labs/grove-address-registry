@@ -44,7 +44,7 @@ library Ethereum {
     address internal constant USDS_SKYLINK_OFT = 0x1e1D42781FC170EF9da004Fb735f56F0276d01B8;
 
     /******************************************************************************************************************/
-    /*** MakerDAO Addresses                                                                                         ***/
+    /*** Sky Addresses                                                                                              ***/
     /******************************************************************************************************************/
 
     address internal constant AUTO_LINE   = 0xC7Bdd1F2B16447dcf3dE045C4a039A60EC2f0ba3;
@@ -62,6 +62,7 @@ library Ethereum {
     address internal constant GROVE_PROXY      = 0x1369f7b2b38c76B6478c0f0E66D94923421891Ba;
     address internal constant GROVE_STAR_GUARD = 0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880;
     address internal constant GROVE_TOKEN      = 0xB30FE1Cf884B48a22a50D22a9282004F2c5E9406;
+    address internal constant GROVE_FOUNDATION = 0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42;
 
     /******************************************************************************************************************/
     /*** Grove Allocation System Addresses                                                                          ***/
@@ -144,9 +145,12 @@ library Ethereum {
     address internal constant GROVE_X_STEAKHOUSE_USDC_MORPHO_VAULT       = 0xBEEf2B5FD3D94469b7782aeBe6364E6e6FB1B709;
     address internal constant GROVE_X_STEAKHOUSE_USDC_HY_V2_MORPHO_VAULT = 0xBeefF08dF54897e7544aB01d0e86f013DA354111;
     address internal constant GROVE_X_STEAKHOUSE_AUSD_V2_MORPHO_VAULT    = 0xBEEfF0d672ab7F5018dFB614c93981045D4aA98a;
-    address internal constant STEAKHOUSE_PYUSD_MORPHO_VAULT              = 0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379;
-    address internal constant SENTORA_PYUSD_MAIN_V2_MORPHO_VAULT         = 0xb576765fB15505433aF24FEe2c0325895C559FB2;
-    address internal constant SENTORA_RLUSD_MAIN_V2_MORPHO_VAULT         = 0x6dC58a0FdfC8D694e571DC59B9A52EEEa780E6bf;
+    address internal constant GROVE_X_STEAKHOUSE_RLUSD_V2_MORPHO_VAULT   = 0xBeEff4fD39F8e48b6a6e475445D650cb11e9599F;
+
+    address internal constant STEAKHOUSE_PYUSD_MORPHO_VAULT = 0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379;
+
+    address internal constant SENTORA_PYUSD_MAIN_V2_MORPHO_VAULT = 0xb576765fB15505433aF24FEe2c0325895C559FB2;
+    address internal constant SENTORA_RLUSD_MAIN_V2_MORPHO_VAULT = 0x6dC58a0FdfC8D694e571DC59B9A52EEEa780E6bf;
 
     /******************************************************************************************************************/
     /*** Superstate Addresses                                                                                       ***/

@@ -92,7 +92,7 @@ library Ethereum {
     /*** Miscellaneous Grove Addresses                                                                              ***/
     /******************************************************************************************************************/
 
-    address internal constant GROVE_PSM_VARIANT_1_ACTIONS = 0x5c40dc1ccaa8ce64133d157ab838fa0c0f0d946f;
+    address internal constant GROVE_PSM_VARIANT_1_ACTIONS = 0x5C40DC1CcAA8CE64133D157ab838fa0c0f0d946f;
 
     /******************************************************************************************************************/
     /*** Ethena Addresses                                                                                           ***/

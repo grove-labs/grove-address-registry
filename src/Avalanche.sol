@@ -35,8 +35,9 @@ library Avalanche {
     /*** Governance Relay Addresses                                                                                 ***/
     /******************************************************************************************************************/
 
-    address internal constant GROVE_EXECUTOR = 0x4b803781828b76EaBF21AaF02e5ce23596b4d60c;
-    address internal constant GROVE_RECEIVER = 0x26e9512547feC1906C55256e491DfB6673D8C23f;
+    address internal constant GROVE_EXECUTOR         = 0x4b803781828b76EaBF21AaF02e5ce23596b4d60c;
+    address internal constant GROVE_CCTP_V1_RECEIVER = 0x26e9512547feC1906C55256e491DfB6673D8C23f;
+    address internal constant GROVE_CCTP_V2_RECEIVER = 0x8Ea8Dff8c29f568eA1E716E2C3AfbD003EB83cfA;
 
     /******************************************************************************************************************/
     /*** Centrifuge Addresses                                                                                       ***/

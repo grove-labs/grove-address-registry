@@ -55,6 +55,8 @@ library Ethereum {
     address internal constant PSM         = 0xf6e72Db5454dd049d0788e411b06CfAF16853042;  // Lite PSM
     address internal constant VAT         = 0x35D1b3F3D7966A1DFe207aa4514C12a259A0492B;
 
+    address internal constant WRAPPER_USDS_LITE_PSM_USDC_A = 0xA188EEC8F81263234dA3622A406892F3D630f98c;
+
     /******************************************************************************************************************/
     /*** GroveDAO Addresses                                                                                         ***/
     /******************************************************************************************************************/

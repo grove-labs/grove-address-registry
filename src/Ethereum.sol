@@ -50,6 +50,7 @@ library Ethereum {
     address internal constant AUTO_LINE   = 0xC7Bdd1F2B16447dcf3dE045C4a039A60EC2f0ba3;
     address internal constant CHIEF       = 0x0a3f6849f78076aefaDf113F5BED87720274dDC0;
     address internal constant DAI_USDS    = 0x3225737a9Bbb6473CB4a45b7244ACa2BeFdB276A;
+    address internal constant JUG         = 0x19c0976f590D67707E62397C87829d896Dc0f1F1;
     address internal constant PAUSE_PROXY = 0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB;
     address internal constant POT         = 0x197E90f9FAD81970bA7976f33CbD77088E5D7cf7;
     address internal constant PSM         = 0xf6e72Db5454dd049d0788e411b06CfAF16853042;  // Lite PSM
@@ -70,11 +71,15 @@ library Ethereum {
     /*** Grove Allocation System Addresses                                                                          ***/
     /******************************************************************************************************************/
 
-    address internal constant ALLOCATOR_BUFFER   = 0x629aD4D779F46B8A1491D3f76f7E97Cb04D8b1Cd;
     address internal constant ALLOCATOR_ORACLE   = 0xc7B91C401C02B73CBdF424dFaaa60950d5040dB7;
     address internal constant ALLOCATOR_REGISTRY = 0xCdCFA95343DA7821fdD01dc4d0AeDA958051bB3B;
     address internal constant ALLOCATOR_ROLES	 = 0x9A865A710399cea85dbD9144b7a09C889e94E803;
-    address internal constant ALLOCATOR_VAULT	 = 0x26512A41C8406800f21094a7a7A0f980f6e25d43;
+
+    address internal constant ALLOCATOR_BLOOM_A_BUFFER = 0x629aD4D779F46B8A1491D3f76f7E97Cb04D8b1Cd;
+    address internal constant ALLOCATOR_BLOOM_A_VAULT  = 0x26512A41C8406800f21094a7a7A0f980f6e25d43;
+
+    address internal constant ALLOCATOR_GROVE_A_BUFFER = 0x436DABce608f73BeA2b75fba35bffe72739697d5;
+    address internal constant ALLOCATOR_GROVE_A_VAULT  = 0xf739a30c74927dc6cFA3B67E4933872a1FC5F4EB;
 
     /******************************************************************************************************************/
     /*** Grove Liquidity Layer Addresses                                                                            ***/
@@ -89,6 +94,32 @@ library Ethereum {
 
     address internal constant GROVE_PRIMARY_RELAYER_OPERATOR   = 0x4364D17B578b0eD1c42Be9075D774D1d6AeAFe96;
     address internal constant GROVE_SECONDARY_RELAYER_OPERATOR = 0x9187807e07112359C481870feB58f0c117a29179;
+
+    /******************************************************************************************************************/
+    /*** Grove Diamond PAU Addresses                                                                                ***/
+    /******************************************************************************************************************/
+
+    address internal constant PAU_PROXY              = 0x0DcD9298e163dFD3c0B5b00F0d9093C36e40A153;
+    address internal constant PAU_CONTROLLER         = 0xbf83F5974B932c7D842254042717D6A2706CE5eE;
+    address internal constant PAU_ACCESS_CONTROLS    = 0x4F6d1704700cd494DD4cd9bF59c0C39DA1Bc9164;
+    address internal constant PAU_RATE_LIMITS        = 0xE016Ae733A77Ba77E7907aAA749394Fc5e75C0e1;
+    address internal constant PAU_ADMINISTERED_AGENT = 0xdBD17832df0e57b1732cE1C84c652E820e549BAa;
+
+    address internal constant PAU_BEACON                     = 0x829dC2b7E94B1954F0764E573f2E0d45Afa28199;
+    address internal constant PAU_FACTORY                    = 0x69A5d548830AC2A4Ba90A44a2C75BDA71f97fc66;
+    address internal constant PAU_ADMINISTERED_AGENT_FACTORY = 0x2968c3b5478cF93B70aB1e24255d4EDBBd27a089;
+    address internal constant PAU_DEFAULT_ASSEMBLER          = 0xc812aAD3FaE2D3511C664374B601a9BeBFeCCa2E;
+
+    address internal constant PAU_BASIN_FACET = 0xC84825BCD13AEddc372400239499380376a44A39;
+    address internal constant PAU_PSM_FACET   = 0xE4A5dAc768a310cc2316f258901b32E499653064;
+    address internal constant PAU_USDS_FACET  = 0x1221CC4B85Ab260660aD21C2829e0EB516dffBc7;
+
+    /******************************************************************************************************************/
+    /*** Grove Basin Addresses                                                                                      ***/
+    /******************************************************************************************************************/
+
+    address internal constant JTRSY_GROVE_BASIN = 0xf08943f817e1F902dEbC884c7B19Ea5764594Ac9;
+    address internal constant BUIDL_GROVE_BASIN = 0xCBa428fB052B365557DAf52b744DFfF20d5FbEdD;
 
     /******************************************************************************************************************/
     /*** Miscellaneous Grove Addresses                                                                              ***/

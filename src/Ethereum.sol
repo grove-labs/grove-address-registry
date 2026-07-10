@@ -255,4 +255,10 @@ library Ethereum {
     address internal constant AGORA_AUSD_MINT   = 0x748b66a6b3666311F370218Bc2819c0bEe13677e;
     address internal constant AGORA_AUSD_REDEEM = 0xab8306d9FeFBE8183c3C59cA897A2E0Eb5beFE67;
 
+    /******************************************************************************************************************/
+    /*** Paxos Addresses                                                                                            ***/
+    /******************************************************************************************************************/
+
+    address internal constant PAXOS_USDC_DEPOSIT_WALLET = 0x8C0A9E5939B97979f85d9aDA3d983C6E713Cc2dB;
+
 }

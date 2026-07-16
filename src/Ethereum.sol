@@ -19,6 +19,7 @@ library Ethereum {
     address internal constant RLUSD  = 0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD;
     address internal constant RSETH  = 0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7;
     address internal constant SDAI   = 0x83F20F44975D03b1b09e64809B757c47f942BEeA;
+    address internal constant STUSDS = 0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9;
     address internal constant SUSDC  = 0xBc65ad17c5C0a2A4D159fa5a503f4992c7B545FE;
     address internal constant SUSDE  = 0x9D39A5DE30e57443BfF2A8307A4256c8797A3497;
     address internal constant SUSDS  = 0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD;
@@ -57,6 +58,7 @@ library Ethereum {
     address internal constant VAT         = 0x35D1b3F3D7966A1DFe207aa4514C12a259A0492B;
 
     address internal constant WRAPPER_USDS_LITE_PSM_USDC_A = 0xA188EEC8F81263234dA3622A406892F3D630f98c;
+    address internal constant LITE_PSM_USDC_A_POCKET       = 0x37305B1cD40574E4C5Ce33f8e8306Be057fD7341;
 
     /******************************************************************************************************************/
     /*** GroveDAO Addresses                                                                                         ***/
@@ -65,7 +67,9 @@ library Ethereum {
     address internal constant GROVE_PROXY      = 0x1369f7b2b38c76B6478c0f0E66D94923421891Ba;
     address internal constant GROVE_STAR_GUARD = 0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880;
     address internal constant GROVE_TOKEN      = 0xB30FE1Cf884B48a22a50D22a9282004F2c5E9406;
+    address internal constant STAKED_GROVE     = 0xF3Ddcaa3BD5D04ba08beC69cf34D9d9C9c112d14;
     address internal constant GROVE_FOUNDATION = 0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42;
+    address internal constant GROVE_FARM       = 0x4E41488C19cD35EB4de3083Fc3e204854c75c86a;
 
     /******************************************************************************************************************/
     /*** Grove Allocation System Addresses                                                                          ***/

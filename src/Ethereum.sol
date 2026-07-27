@@ -214,13 +214,22 @@ library Ethereum {
     address public constant FALCON_X_DEPOSIT = 0xD94F9ef3395BBE41C1f05ced3C9a7dc520D08036;
 
     /******************************************************************************************************************/
-    /*** Aave Addresses                                                                                             ***/
+    /*** Aave V3 Addresses                                                                                          ***/
     /******************************************************************************************************************/
 
     address internal constant AAVE_CORE_USDC     = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
     address internal constant AAVE_CORE_RLUSD    = 0xFa82580c16A31D0c1bC632A36F82e83EfEF3Eec0;
     address internal constant AAVE_HORIZON_USDC  = 0x68215B6533c47ff9f7125aC95adf00fE4a62f79e;
     address internal constant AAVE_HORIZON_RLUSD = 0xE3190143Eb552456F88464662f0c0C4aC67A77eB;
+
+    /******************************************************************************************************************/
+    /*** Aave V4 Addresses                                                                                          ***/
+    /******************************************************************************************************************/
+
+    address internal constant AAVE_V4_CORE_HUB = 0xCca852Bc40e560adC3b1Cc58CA5b55638ce826c9;
+
+    address internal constant AAVE_V4_MAIN_SPOKE  = 0x94e7A5dCbE816e498b89aB752661904E2F56c485;
+    address internal constant AAVE_V4_FOREX_SPOKE = 0xD8B93635b8C6d0fF98CbE90b5988E3F2d1Cd9da1;
 
     /******************************************************************************************************************/
     /*** Curve Addresses                                                                                            ***/

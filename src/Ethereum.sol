@@ -114,9 +114,10 @@ library Ethereum {
     address internal constant PAU_ADMINISTERED_AGENT_FACTORY = 0x2968c3b5478cF93B70aB1e24255d4EDBBd27a089;
     address internal constant PAU_DEFAULT_ASSEMBLER          = 0xc812aAD3FaE2D3511C664374B601a9BeBFeCCa2E;
 
-    address internal constant PAU_BASIN_FACET = 0xC84825BCD13AEddc372400239499380376a44A39;
-    address internal constant PAU_PSM_FACET   = 0xE4A5dAc768a310cc2316f258901b32E499653064;
-    address internal constant PAU_USDS_FACET  = 0x1221CC4B85Ab260660aD21C2829e0EB516dffBc7;
+    address internal constant PAU_BASIN_FACET      = 0xC84825BCD13AEddc372400239499380376a44A39;
+    address internal constant PAU_PSM_FACET        = 0xE4A5dAc768a310cc2316f258901b32E499653064;
+    address internal constant PAU_UNISWAP_V3_FACET = 0x445D9Dc752F269Be48250f1A180CAC4c61cE4bab;
+    address internal constant PAU_USDS_FACET       = 0x1221CC4B85Ab260660aD21C2829e0EB516dffBc7;
 
     /******************************************************************************************************************/
     /*** Grove Basin Addresses                                                                                      ***/

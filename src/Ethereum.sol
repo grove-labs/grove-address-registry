@@ -60,6 +60,8 @@ library Ethereum {
     address internal constant WRAPPER_USDS_LITE_PSM_USDC_A = 0xA188EEC8F81263234dA3622A406892F3D630f98c;
     address internal constant LITE_PSM_USDC_A_POCKET       = 0x37305B1cD40574E4C5Ce33f8e8306Be057fD7341;
 
+    address internal constant PAS_CONFIGURATOR = 0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929;
+
     /******************************************************************************************************************/
     /*** GroveDAO Addresses                                                                                         ***/
     /******************************************************************************************************************/

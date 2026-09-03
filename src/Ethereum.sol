@@ -26,6 +26,7 @@ library Ethereum {
     address internal constant TBTC   = 0x18084fbA666a33d37592fA2633fD49a74DD93a88;
     address internal constant USDC   = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
     address internal constant USDE   = 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3;
+    address internal constant USDG   = 0xe343167631d89B6Ffc58B88d6b7fB0228795491D;
     address internal constant USDS   = 0xdC035D45d973E3EC169d2276DDab16f1e407384F;
     address internal constant USCC   = 0x14d60E7FDC0D71d8611742720E4C50E7a974020c;
     address internal constant USDT   = 0xdAC17F958D2ee523a2206206994597C13D831ec7;
@@ -192,6 +193,7 @@ library Ethereum {
     address internal constant GROVE_X_STEAKHOUSE_USDC_HY_V2_MORPHO_VAULT = 0xBeefF08dF54897e7544aB01d0e86f013DA354111;
     address internal constant GROVE_X_STEAKHOUSE_AUSD_V2_MORPHO_VAULT    = 0xBEEfF0d672ab7F5018dFB614c93981045D4aA98a;
     address internal constant GROVE_X_STEAKHOUSE_RLUSD_V2_MORPHO_VAULT   = 0xBeEff4fD39F8e48b6a6e475445D650cb11e9599F;
+    address internal constant GROVE_X_STEAKHOUSE_USDG_V2_MORPHO_VAULT    = 0xbeef05061FE51eA482BD1b68041353490b3a5934;
 
     address internal constant STEAKHOUSE_PYUSD_MORPHO_VAULT = 0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379;
 

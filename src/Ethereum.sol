@@ -201,6 +201,8 @@ library Ethereum {
     address internal constant SENTORA_PYUSD_MAIN_V2_MORPHO_VAULT = 0xb576765fB15505433aF24FEe2c0325895C559FB2;
     address internal constant SENTORA_RLUSD_MAIN_V2_MORPHO_VAULT = 0x6dC58a0FdfC8D694e571DC59B9A52EEEa780E6bf;
 
+    address internal constant VAULT_OWNER_SAFE = 0xD700038b3f8d2F1a8193F35d7dD25c02e7155427;
+
     /******************************************************************************************************************/
     /*** Superstate Addresses                                                                                       ***/
     /******************************************************************************************************************/

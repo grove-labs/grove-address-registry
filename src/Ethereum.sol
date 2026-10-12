@@ -194,11 +194,14 @@ library Ethereum {
     address internal constant GROVE_X_STEAKHOUSE_AUSD_V2_MORPHO_VAULT    = 0xBEEfF0d672ab7F5018dFB614c93981045D4aA98a;
     address internal constant GROVE_X_STEAKHOUSE_RLUSD_V2_MORPHO_VAULT   = 0xBeEff4fD39F8e48b6a6e475445D650cb11e9599F;
     address internal constant GROVE_X_STEAKHOUSE_USDG_V2_MORPHO_VAULT    = 0xbeef05061FE51eA482BD1b68041353490b3a5934;
+    address internal constant GROVE_X_STEAKHOUSE_PYUSD_V2_MORPHO_VAULT   = 0xbeef08Db223ad823164A4B13CBD6bd8b5d507b41;
 
     address internal constant STEAKHOUSE_PYUSD_MORPHO_VAULT = 0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379;
 
     address internal constant SENTORA_PYUSD_MAIN_V2_MORPHO_VAULT = 0xb576765fB15505433aF24FEe2c0325895C559FB2;
     address internal constant SENTORA_RLUSD_MAIN_V2_MORPHO_VAULT = 0x6dC58a0FdfC8D694e571DC59B9A52EEEa780E6bf;
+
+    address internal constant VAULT_OWNER_SAFE = 0xD700038b3f8d2F1a8193F35d7dD25c02e7155427;
 
     /******************************************************************************************************************/
     /*** Superstate Addresses                                                                                       ***/

@@ -273,8 +273,10 @@ library Ethereum {
     /*** Agora Addresses                                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant AGORA_AUSD_MINT   = 0x748b66a6b3666311F370218Bc2819c0bEe13677e;
-    address internal constant AGORA_AUSD_REDEEM = 0xab8306d9FeFBE8183c3C59cA897A2E0Eb5beFE67;
+    address internal constant AGORA_AUSD_MINT      = 0x748b66a6b3666311F370218Bc2819c0bEe13677e;
+    address internal constant AGORA_AUSD_REDEEM    = 0xab8306d9FeFBE8183c3C59cA897A2E0Eb5beFE67;
+    address internal constant AGORA_AUSD_MINT_V2   = 0xC6A7d3662e7d38f8e3a1e991116F6c3628bd7EDf;
+    address internal constant AGORA_AUSD_REDEEM_V2 = 0x9307672C95c7B92e659da63EF5ee64B0C0D14619;
 
     /******************************************************************************************************************/
     /*** Paxos Addresses                                                                                            ***/
